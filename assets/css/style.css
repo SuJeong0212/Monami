@@ -11,7 +11,7 @@ header {
 #header_top>h1 {
     position: fixed;
     top: 25px;
-    left: 28%;
+    left: 25%;
 }
 
 header img {
@@ -22,12 +22,7 @@ nav {
     position: absolute;
     top: 15px;
     width: 1200px;
-    left: 28%;
-}
-
-section {
-    /*            transform:translateY(88px);*/
-    /*            text-align: center;*/
+    left: 25%;
 }
 
 .gnb {
@@ -293,60 +288,6 @@ video {
     width: 100%;
 }
 
-fieldset {
-    border: none;
-    margin-top: 120px;
-}
-
-legend {
-    font-size: 50px;
-    font-weight: bold;
-    line-height: 100px;
-}
-
-.contact {
-    text-align: center;
-}
-
-.field {
-    padding: 3px;
-    font-size: 20px;
-    color: #747474;
-}
-
-input[placeholder] {
-    font-size: 15px;
-    text-indent: 10px;
-}
-
-input,
-textarea {
-    background-color: #f4f4f4;
-    border: none;
-    padding: 5px 5px;
-}
-
-.field>textarea {
-    width: 300px;
-}
-
-input[type=submit] {
-    padding: 10px 20px;
-    font-size: 18px;
-    background-color: #333;
-    border: 1px solid #333;
-    color: #fff;
-    border-radius: 15px;
-    cursor: pointer;
-    transform: translateY(20px);
-}
-
-input[type=submit]:hover {
-    background-color: #fff;
-    border: 1px solid #333;
-    color: #333;
-    /*            font-weight: bold;*/
-}
 
 section::before {
     display: block;
@@ -357,16 +298,6 @@ section::before {
 footer {
     width: 100%;
     margin-bottom: 20px;
-    /*            height:80px;*/
-    /*            border-top:1px solid #333;*/
-    /*            margin-top:120px;*/
-}
-
-footer::before {
-    display: block;
-    content: "";
-    clear: both;
-    height: 110px;
 }
 
 footer address {
