@@ -77,7 +77,7 @@ $(document).ready(function () {
 
     $(window).scroll(function () {
         var sPos = $(window).scrollTop();
-        //            console.log(sPos);
+                //    console.log(sPos);
 
         if (sPos >= 700) {
             $('footer a').fadeIn();
@@ -86,18 +86,15 @@ $(document).ready(function () {
         }
 
         if (sPos >= 400 && sPos < 900) {
-            $('.gnb a').removeClass('on');
-            $('.gnb > li').eq(0).find('a').addClass('on');
+            $('.gnb-list').removeClass('on');
+            $('.gnb-list').eq(0).addClass('on');
         } else if (sPos >= 901 && sPos < 1800) {
-            $('.gnb a').removeClass('on');
-            $('.gnb > li').eq(1).find('a').addClass('on');
+            $('.gnb-list').removeClass('on');
+            $('.gnb-list').eq(1).addClass('on');
         } else if (sPos >= 1801 && sPos < 2800) {
-            $('.gnb a').removeClass('on');
-            $('.gnb > li').eq(2).find('a').addClass('on');
-        } else if (sPos >= 2801 && sPos < 3500) {
-            $('.gnb a').removeClass('on');
-            $('.gnb > li').eq(3).find('a').addClass('on');
-        } else {
+            $('.gnb-list').removeClass('on');
+            $('.gnb-list').eq(2).addClass('on');
+        }else {
             $('.gnb a').removeClass('on');
         }
 
